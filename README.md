@@ -1,27 +1,30 @@
-# raffle-wheel
+# Raffle Wheel
 
-This template should help get you started developing with Vue 3 in Vite.
+A vibrant and interactive Raffle Wheel application built with **Vue 3**, **TypeScript**, and **Pinia**.
 
-## Recommended IDE Setup
+## Features
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **Interactive Wheel**: smoothly animated spinning wheel using HTML5 Canvas.
+- **Winner Selection**: Randomly selects a winner with a drumroll effect.
+- **Drumroll & Animations**: Lively UI with animated gradient backgrounds and glassmorphism effects.
+- **Manage Entries**:
+  - Add names manually.
+  - **Numeric Auto-Fill**: Quickly generate a range of numbers (e.g., 1-50).
+  - Remove individual names.
+- **Winner Management**:
+  - Winners are removed from the main wheel to avoid repeats.
+  - "Removed Items" list tracks past winners.
+- **Controls**:
+  - **Shuffle**: Randomize the list order.
+  - **Clear All**: Reset the entire board.
+  - **Restart**: Restore all removed winners back to the wheel.
 
-## Recommended Browser Setup
+## Tech Stack
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd) 
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
+- [Vue 3](https://vuejs.org/) - The Progressive JavaScript Framework
+- [Vite](https://vitejs.dev/) - Next Generation Frontend Tooling
+- [Pinia](https://pinia.vuejs.org/) - The intuitive store for Vue.js
+- [TypeScript](https://www.typescriptlang.org/) - Typed JavaScript at Any Scale
 
 ## Project Setup
 
